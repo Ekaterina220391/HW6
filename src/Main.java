@@ -13,26 +13,21 @@ public class Main {
 
 
         System.out.println("Задача 2");
-        var dog2 = 8.0;
-        var cat2 = 3.6;
-        var paper2 = 763789;
-        var rezultDog2 = dog2 + 4;
-        var rezultCat2 = cat2 + 4;
-        var rezultPaper2 = paper2 + 4;
-        System.out.println(rezultDog2);
-        System.out.println(rezultCat2);
-        System.out.println(rezultPaper2);
+
+        var summDog = dog + 4;
+        var summCat = cat + 4;
+        var summPaper = paper + 4;
+        System.out.println(summDog);
+        System.out.println(summCat);
+        System.out.println(summPaper);
 
         System.out.println("Задача 3");
-        var dog3 = 8.0;
-        var cat3 = 3.6;
-        var paper3 = 763789;
-        var rezultDog3 = dog2 - 3.5;
-        var rezultCat3 = cat2 - 1.6;
-        var rezultPaper3 = paper2 - 7639;
-        System.out.println(rezultDog3);
-        System.out.println(rezultCat3);
-        System.out.println(rezultPaper3);
+        var substractDog = dog - 3.5;
+        var substractCat = cat - 1.6;
+        var substractPaper = paper - 7639;
+        System.out.println(substractDog);
+        System.out.println(substractCat);
+        System.out.println(substractPaper);
 
         System.out.println("Задача 4");
         var friend = 19;
