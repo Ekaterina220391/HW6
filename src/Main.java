@@ -67,9 +67,9 @@ public class Main {
         System.out.println(remains);
 
         System.out.println("Задача 8");
-        var hour = 640;
+        var hourAll = 640;
         var hourDay = 8;
-        var workerAll = hour/hourDay;
+        var workerAll = hourAll/hourDay;
         var workerNew = workerAll+94;
         var hourNew = workerNew*hourDay;
         System.out.println( "Всего работников в компании - " +workerAll+  " человек " );
