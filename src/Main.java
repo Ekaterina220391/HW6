@@ -13,21 +13,20 @@ public class Main {
 
 
         System.out.println("Задача 2");
-
-        var summDog = dog + 4;
-        var summCat = cat + 4;
-        var summPaper = paper + 4;
-        System.out.println(summDog);
-        System.out.println(summCat);
-        System.out.println(summPaper);
+        dog = dog + 4;
+        cat = cat + 4;
+        paper = paper + 4;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
 
         System.out.println("Задача 3");
-        var substractDog = dog - 3.5;
-        var substractCat = cat - 1.6;
-        var substractPaper = paper - 7639;
-        System.out.println(substractDog);
-        System.out.println(substractCat);
-        System.out.println(substractPaper);
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
 
         System.out.println("Задача 4");
         var friend = 19;
@@ -56,9 +55,7 @@ public class Main {
         System.out.println(differenceBox +  "кг");
 
         System.out.println("Задача 7");
-        var box11= 78.2;
-        var box22= 82.7;
-        var remains = box22%box11;
+        var remains = box2%box1;
         System.out.println(remains);
 
         System.out.println("Задача 8");
