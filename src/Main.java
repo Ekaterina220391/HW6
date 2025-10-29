@@ -33,7 +33,7 @@ public class Main {
         System.out.println(friend);
         friend = friend+2;
         System.out.println(friend);
-        friend = (friend+2)/7;
+        friend = friend/7;
         System.out.println(friend);
 
 
@@ -42,9 +42,9 @@ public class Main {
         System.out.println(frog);
         frog = frog*10;
         System.out.println(frog);
-        frog= (frog*10)/3.5;
+        frog= frog/3.5;
         System.out.println(frog);
-        frog= (frog*10)/3.5+4;
+        frog= frog+4;
         System.out.println(frog);
 
 
