@@ -30,21 +30,23 @@ public class Main {
 
         System.out.println("Задача 4");
         var friend = 19;
-        var summFriend = friend+2;
-        var divisionFriend = summFriend/7;
         System.out.println(friend);
-        System.out.println(summFriend);
-        System.out.println(divisionFriend);
+        friend = friend+2;
+        System.out.println(friend);
+        friend = (friend+2)/7;
+        System.out.println(friend);
+
 
         System.out.println("Задача 5");
         var frog =3.5;
-        var multiFrog = frog*10;
-        var divisionFrog= multiFrog/3.5;
-        var summFrog= divisionFrog +4;
         System.out.println(frog);
-        System.out.println(multiFrog);
-        System.out.println(divisionFrog);
-        System.out.println(summFrog);
+        frog = frog*10;
+        System.out.println(frog);
+        frog= (frog*10)/3.5;
+        System.out.println(frog);
+        frog= (frog*10)/3.5+4;
+        System.out.println(frog);
+
 
         System.out.println("Задача 6");
         var box1= 78.2;
